@@ -1,6 +1,7 @@
 """Unit tests for stlink.py"""
 import unittest
-import swd.stlink
+import pyswd.swd.stlink
+from pyswd import swd
 
 
 class FncMock():

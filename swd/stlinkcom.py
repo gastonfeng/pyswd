@@ -2,7 +2,7 @@
 
 import logging as _logging
 import usb.core as _usb
-import swd._log as _log
+import pyswd.swd._log as _log
 
 
 class StlinkComException(Exception):

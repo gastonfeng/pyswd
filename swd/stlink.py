@@ -1,7 +1,7 @@
 """ST-Link/V2 driver"""
 
-from swd.stlinkcom import StlinkCom as _StlinkCom
-import swd._log as _log
+from pyswd.swd.stlinkcom import StlinkCom as _StlinkCom
+import pyswd.swd._log as _log
 
 
 class StlinkException(Exception):

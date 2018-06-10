@@ -1,8 +1,8 @@
 """SWD protocol"""
 
 import itertools as _itertools
-from swd.stlink import Stlink as _Stlink
-import swd._log as _log
+from pyswd.swd.stlink import Stlink as _Stlink
+import pyswd.swd._log as _log
 
 
 class Swd():
